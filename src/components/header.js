@@ -5,6 +5,7 @@ import * as headerStyles from './header.module.scss'
 const Header = () => {
   return (
     <header className={ headerStyles.header }>
+      <div className={ headerStyles.overlay }></div>
       <div className={ headerStyles.heroContent }>
         <p className={ headerStyles.brand }>
           <Link to='/'>Just Ian</Link>
